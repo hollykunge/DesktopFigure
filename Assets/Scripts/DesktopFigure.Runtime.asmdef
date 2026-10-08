@@ -1,0 +1,24 @@
+{
+    "name": "DesktopFigure.Runtime",
+    "rootNamespace": "DesktopFigure",
+    "references": [
+        "VRM10",
+        "VRM10.MToon10",
+        "VrmLib",
+        "FastSpringBone10",
+        "UniGLTF",
+        "UniGLTF.Utils",
+        "UniHumanoid",
+        "SpringBoneJobs",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

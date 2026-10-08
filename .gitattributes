@@ -1,0 +1,11 @@
+# 文本文件统一用 LF 存入仓库（Windows 检出时按 core.autocrlf 转换）；git 自动识别二进制
+* text=auto
+*.vrm binary
+*.glb binary
+*.ttf binary
+*.otf binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.dll binary
+*.dylib binary

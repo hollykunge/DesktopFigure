@@ -1,0 +1,78 @@
+# ---------------- Unity ----------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+
+# 打包产物 / Release artifacts
+/Release/
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+
+# IDE / 自动生成的工程文件
+.vs/
+.idea/
+.vscode/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 日志
+*.log
+
+# 本地备份
+/_backup_*/
+
+# ---------------- 不能再分发的素材（只保留在本地）----------------
+# BOOTH 等第三方服装贴图、VRoid 示例模型
+/VRoid服装/
+/Samples/
+# Outfits 里只提交说明和作者自己的角色
+/Outfits/*
+!/Outfits/README.txt
+!/Outfits/我的角色.vrm
+
+# 微软字体（只能从系统加载，不能放进仓库）
+[Ss]egoe*.tt[fc]
+[Ss]egoe*.otf
+SegoeIcons.ttf
+msyh*.tt[fc]
+simhei.ttf
+simsun.tt[fc]
+
+# ---------------- 系统 ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# UniVRM 自带的示例（Samples~ 不会被 Unity 导入，项目不需要；示例模型/贴图不随本仓库分发）
+/LocalPackages/**/Samples~/
